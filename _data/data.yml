@@ -58,11 +58,7 @@ education:
           - Bullet point
           - Bullet point
     - degree: 전자공학과
-<<<<<<< HEAD
       university: 건국대학교
-=======
-      university: Bristol University
->>>>>>> 8b8d92201cb74a06a02c97cbe4da4825b2d526bf
       time: 2017 - 2018
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
