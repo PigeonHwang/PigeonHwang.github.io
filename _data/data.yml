@@ -76,9 +76,7 @@ experiences:
       time: 2019 - 2020
       company: 크리스피드
       details: |
-        크리스피드는 공공기관 erp 납품업체입니다.
-        <br>
-        해양수산과학기술진흥원에서 PMS(연구관리시스템) 고도화사업에 풀스택 개발자로 참여하였습니다.
+        크리스피드는 공공기관 erp 납품업체입니다. 근무기간 동안 해양수산과학기술진흥원에서 PMS(연구관리시스템) 고도화사업에 풀스택 개발자로 참여하였습니다.
     - role: AR기술을 이용한 악기 교육 프로그램 개발
       time: 2017 - 2018
       company: 개인개발
@@ -115,11 +113,11 @@ skills:
       - name: Oracle
         level: 40%
 
-      - name: C++ & C#
+      - name: C++
         level: 15%
 
-      - name: Photoshop
-        level: 20%
+      - name: C#
+        level: 10%
 
 footer: >
     황종인 - hji9281@gmail
