@@ -66,11 +66,11 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: 언리얼엔진 다중접속 게임개발
+    - role: 언리얼엔진 멀티플레이 게임개발
       time: 2021 - Present
       company: 개인개발
       details: |
-      언리얼엔진을 활용하여 다중접속 게임을 개발하고있습니다.
+      언리얼엔진을 활용하여 멀티플레이 게임을 개발하고있습니다.
       
     - role: 위니드수학 초중고 수학강사
       time: 2021 - 2022
@@ -78,7 +78,7 @@ experiences:
       details: |
       위니드수학에서 초중고 수학강사로 활동하였습니다.
       
-    - role: 해양수산과학기술진흥원 PMS 고도화
+    - role: 해양수산과학기술진흥원 PMS 고도화 참여
       time: 2019 - 2020
       company: 크리스피드
       details: |
@@ -86,7 +86,7 @@ experiences:
       <br>
       근무 기간동안 해양수산과학기술진흥원에서 PMS(연구관리시스템) 고도화사업에 풀스택 개발자로 참여하였습니다.
       
-    - role: AR기술을 이용한 피아노 교육 프로그램
+    - role: AR기술을 이용한 악기 교육 프로그램 개발
       time: 2017 - 2018
       company: 개인개발
       details: |
@@ -101,25 +101,17 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
+      - title: 언리얼엔진 멀티플레이 게임
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "Unreal C++를 사용하여 다중접속이 가능한 멀티플레이 게임을 개발중입니다.<br>Blender를 사용하여 3D 모델링 또한 직접 만들고 있습니다."
 
-      - title: DevStudio
+      - title: 해양수산과학기술진흥원 PMS 고도화
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "해양수산과학기술진흥원 PMS 고도화 프로젝트에서 기존 struts 기반의 웹사이트를 spring 기반으로 변환과 동시에 oracle 12c로 최신화하는 작업을 하였습니다."
 
-      - title: Tempo
+      - title: AR기술을 이용한 악기 교육 프로그램
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Unity C#을 사용하여 증강현실 기술을 통해 악기를 연습할 수 있는 프로그램을 개발하였습니다."
 
 skills:
     title: Skills &amp; Proficiency
