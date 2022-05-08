@@ -91,16 +91,16 @@ projects:
     intro: >
     assignments:
       - title: 언리얼엔진 멀티플레이 게임
-        link: "#hook"
-        tagline: "Unreal C++를 사용하여 다중접속이 가능한 멀티플레이 게임을 개발중입니다.<br>Blender를 사용하여 3D 모델링 또한 직접 만들고 있습니다."
+        link: ""
+        tagline: "Unreal C++를 사용하여 다중접속이 가능한 멀티플레이 게임을 개발중입니다. Unreal C++ 으로 기본 뼈대를 만들고 blueprint를 활용하여 세부적인 로직을 설계하고 있습니다. 클라이언트 및 서버 개발 외에 게임에 필요한 3D모델들을 Blender를 활용하여 제작 만들고 있습니다."
 
       - title: 해양수산과학기술진흥원 PMS 고도화
-        link: "#"
-        tagline: "해양수산과학기술진흥원 PMS 고도화 프로젝트에서 기존 struts 기반의 웹사이트를 spring 기반으로 변환과 동시에 oracle 12c로 최신화하는 작업을 하였습니다."
+        link: "https://ofris.kimst.re.kr/pms/pms/main/main.do"
+        tagline: "해양수산과학기술진흥원 PMS 고도화 프로젝트에서 기존 struts 기반의 웹사이트를 spring 기반으로 변환 및 oracle 12c로 최신화하는 작업을 하였습니다. sparrow를 활용하여 보안취약점 진단 및 조치하였습니다."
 
       - title: AR기술을 이용한 악기 교육 프로그램
-        link: "#"
-        tagline: "Unity C#을 사용하여 증강현실 기술을 통해 악기를 연습할 수 있는 프로그램을 개발하였습니다."
+        link: "https://www.youtube.com/watch?v=atLUa6O9Osw"
+        tagline: "Unity C#을 사용하여 증강현실 기술을 통해 악기를 연습할 수 있는 프로그램을 개발하였습니다. Unity C# 으로 VR게임 시스템을 만들고 그 위에 vuforia를 활용하여 AR(증강현실)을 구현하였습니다."
 
 skills:
     title: Skills &amp; Proficiency
