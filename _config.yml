@@ -18,7 +18,7 @@ chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't wa
 
 # Analytics
 analytics:
-  provider               : "google-gtag" 
+  provider               : "google" 
                           # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          : "G-7WN5LLS30T"
