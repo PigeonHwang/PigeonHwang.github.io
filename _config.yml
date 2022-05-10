@@ -16,6 +16,14 @@ chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't wa
 # Tracker
 analytics: UA-83979019-1
 
+# Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-7WN5LLS30T"
+    anonymize_ip         : # true, false (default)
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
