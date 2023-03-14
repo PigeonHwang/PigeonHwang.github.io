@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: hji9281@gmail.com
     phone: 010 8850 3022
-    github: AngusHwang
+    github: PigeonHwang
     pdf: /cv.pdf
 
 career-profile:
@@ -63,12 +63,13 @@ experiences:
         - 소셜 로그인 연동 및 토큰 시스템 개발
         - 소셜 네트워크의 전반적인 기능 설계 및 개발
         - 메소드 레벨 보안 개발
+        - key cloak 을 사용한 sso 연동
     - role: 실시간 게임 서버 개발 [백엔드]
       time: 2022.12 - 2023.02
       company: WE-AR
       details: |
-        [ kotlin ]
-        [ spring boot 3.0, graphql ]
+        [ go, kotlin ]
+        [ nakama, spring boot ]
         [ jpa, postgresql ]
         - 소셜 로그인 연동 및 토큰 시스템 개발
         - 소셜 네트워크의 전반적인 api 설계 및 개발
@@ -89,11 +90,12 @@ experiences:
         [ kotlin ]
         [ spring boot, graphql ]
         [ jpa, postgresql ]
-        - 서버개발리드
-        - 메소드레벨보안구현
+        - 서버 개발 리드
         - 웹사이트 slack 알람 개발
         - 전반적인 웹사이트 api 설계 및 개발
+        - key cloak 을 사용한 sso 구축
         - flyway DB 마이그레이션 자동화 구축
+        - 메소드 레벨 보안 개발
     - role: 언리얼엔진 멀티플레이 게임개발 [게임 클라이언트]
       time: 2021 - 2022
       company: 개인개발
@@ -102,7 +104,7 @@ experiences:
         [unreal engine 4, blender ]
         - 언리얼 엔진 클라이언트 개발
         - blender 를 활용한 게임 에셋 모델링
-        - 멀티플레이를 위한 데디케이트 서버 구조 설계
+        - 멀티플레이를 위한 데디케이트 서버 구조 설계 및 개발
     - role: 위니드수학 수학강사
       time: 2021 - 2022
       company: 위니드수학
