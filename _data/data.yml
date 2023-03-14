@@ -22,23 +22,14 @@ career-profile:
     summary: |
       안녕하세요! 분석하는 개발자 황종인입니다.
       <br><br>
-      단순히 작동만 되게하는 코드가 아닌 지속가능한 개발을 하는것을 좋아합니다.
+      단순히 작동만 되게하는 코드가 아닌 확장성있고 재사용이 가능한 개발을 하는것을 좋아합니다.
+      <br><br>
+      구조 설계를 중요하게 생각하며 테스트 && 배포 자동화와 같은 인프라 구축에도 많은 관심이 있습니다.
       <br><br>
       여러 분야들에서 얻은 경험을 통해 유연한 사고를 가진 개발자가 되고싶습니다.
       <br><br>
-      다양한 직군의 사람들과의 협업을 통한 배움을 중요하게 생각합니다.
+      다양한 직군의 사람들과의 협업을 통한 배움을 중요하게 생각하며 끊임없는 공부로 성장해나가는 것을 미덕으로 여깁니다.
 education:
-    - degree: 융합 sw 개발자 양성과정
-      university: kh 정보교육원
-      time: 2018 - 2018
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
     - degree: 전자공학과
       university: 건국대학교
       time: 2017 - 2019
@@ -62,64 +53,201 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: WE-AR 백엔드 개발
-      time: 2022 - Present
+    - role: 소셜 네트워크 서비스 서버 개발 [백엔드]
+      time: 2023.02 - 2023.03
       company: WE-AR
       details: |
-        AR필터 및 nft 메타버스 플랫폼 회사인 WE-AR에서 서버 개발자로 근무하였습니다.
-    - role: 언리얼엔진 멀티플레이 게임개발
+        [ kotlin ]
+        [ spring boot 3.0, graphql ]
+        [ jpa, postgresql ]
+        - 소셜 로그인 연동 및 토큰 시스템 개발
+        - 소셜 네트워크의 전반적인 기능 설계 및 개발
+        - 메소드 레벨 보안 개발
+    - role: 실시간 게임 서버 개발 [백엔드]
+      time: 2022.12 - 2023.02
+      company: WE-AR
+      details: |
+        [ kotlin ]
+        [ spring boot 3.0, graphql ]
+        [ jpa, postgresql ]
+        - 소셜 로그인 연동 및 토큰 시스템 개발
+        - 소셜 네트워크의 전반적인 api 설계 및 개발
+        - 메소드 레벨 보안 개발
+    - role: 개발 인프라 구축 [데브옵스]
+      time: 2022.10 - 2022.11
+      company: WE-AR
+      details: |
+        [ aws, k8s ]
+        [ github action, argocd ]
+        - github action, argocd 를 활용한 테스트, 배포 자동화 구축
+        - AWS RDS, EKS 관리
+        - 웹사이트 썸네일 저장용 AWS S3 구축
+    - role: 위에이알 웹사이트 api 개발 [백엔드]
+      time: 2022.09 - 2022.11
+      company: WE-AR
+      details: |
+        [ kotlin ]
+        [ spring boot, graphql ]
+        [ jpa, postgresql ]
+        - 서버개발리드
+        - 메소드레벨보안구현
+        - 웹사이트 slack 알람 개발
+        - 전반적인 웹사이트 api 설계 및 개발
+        - flyway DB 마이그레이션 자동화 구축
+    - role: 언리얼엔진 멀티플레이 게임개발 [게임 클라이언트]
       time: 2021 - 2022
       company: 개인개발
       details: |
-        언리얼엔진을 활용하여 멀티플레이 게임을 개발하고있습니다.
+        [unreal c++]
+        [unreal engine 4, blender ]
+        - 언리얼 엔진 클라이언트 개발
+        - blender 를 활용한 게임 에셋 모델링
+        - 멀티플레이를 위한 데디케이트 서버 구조 설계
     - role: 위니드수학 수학강사
       time: 2021 - 2022
       company: 위니드수학
       details: |
-        위니드수학에서 초·중·고등학교 수학강사로 근무하였습니다.
-    - role: 해양수산과학기술진흥원 PMS 고도화 참여
-      time: 2019 - 2020
+        - 위니드수학에서 초·중·고등학교 수학강사로 근무
+    - role: 해양과학기술진흥원 연구 증명서 시스템 개발 [풀스택]
+      time: 2020.02 - 2020.05
       company: 크리스피드
       details: |
-        크리스피드는 공공기관 erp 납품업체입니다. 근무기간 동안 해양수산과학기술진흥원에서 PMS(연구관리시스템) 고도화사업에 풀스택 개발자로 참여하였습니다.
-    - role: AR기술을 이용한 악기 교육 프로그램 개발
+        [ java, javascript ]
+        [ spring, jQuery ]
+        [ oracle ]
+        - 연구 증명서 발급 및 검증 시스템 개발
+        - 연구 증명서 발급시스템 pl 수행
+        - 일정 관리 및 역할 분배
+    - role: 해양수산과학기술진흥원 PMS 고도화
+      time: 2019.10 - 2020.06
+      company: 크리스피드
+      details: |
+        [ java, javascript ]
+        [ spring, jQuery ]
+        [ oracle ]
+        - struts -> 전자정부 프레임워크 고도화 작업
+        - java, 전자정부프레임워크, oracle 개발환경 경험
+        - 보안취약점진단및조치
+    - role: AR기술을 이용한 악기 교육 프로그램 개발 [게임 클라이언트]
       time: 2017 - 2018
       company: 개인개발
       details: |
-        증강현실 기술을 사용한 피아노 교육 프로그램을 개발하였습니다.
+        [ c# ]
+        [ unity, vuforia ]
+        - unity 엔진과 증강현실 기술을 활용한 악기 교육 프로그램 개발
         <br>
-        2018 건국대학교 SW 경진대회에 출품하여 2위로 입상하였습니다.
-projects:
-    title: Projects
-    intro: >
-    assignments:
-      - title: 언리얼엔진 멀티플레이 게임
-        link: ""
-        tagline: "Unreal C++를 사용하여 다중접속이 가능한 멀티플레이 게임을 개발중입니다. Unreal C++ 으로 기본 뼈대를 만들고 blueprint를 활용하여 세부적인 로직을 설계하고 있습니다. 클라이언트 및 서버 개발 외에 게임에 필요한 3D모델들을 Blender를 활용하여 제작 만들고 있습니다."
-
-      - title: 해양수산과학기술진흥원 PMS 고도화
-        link: "https://ofris.kimst.re.kr/pms/pms/main/main.do"
-        tagline: "해양수산과학기술진흥원 PMS 고도화 프로젝트에서 기존 struts 기반의 웹사이트를 spring 기반으로 변환 및 oracle 12c로 최신화하는 작업을 하였습니다. sparrow를 활용하여 보안취약점 진단 및 조치하였습니다."
-
-      - title: AR기술을 이용한 악기 교육 프로그램
-        link: "https://www.youtube.com/watch?v=atLUa6O9Osw"
-        tagline: "Unity C#을 사용하여 증강현실 기술을 통해 악기를 연습할 수 있는 프로그램을 개발하였습니다. Unity C# 으로 VR게임 시스템을 만들고 그 위에 vuforia를 활용하여 AR(증강현실)을 구현하였습니다."
+        - 2018 건국대학교 SW 경진대회 2위 입상
+#projects:
+#    title: Projects
+#    intro: >
+#    assignments:
+#      - title: 소셜 네트워크 서비스 서버 개발 [백엔드]
+#        time: 2023.02 - 2023.03
+#        company: We-Ar
+#        details: |
+#          { kotlin }
+#          <br>
+#          { spring boot 3.0, graphql }
+#          <br>
+#          { jpa, postgresql }
+#          <br>
+#          -소셜 로그인 연동 및 토큰 시스템 개발
+#          <br>
+#          -소셜 네트워크의 전반적인 기능 설계 및 개발
+#          <br>
+#          -메소드 레벨 보안 개발
+#        link: ""
+#      - title: 실시간 게임 서버 개발 [백엔드]
+#        time: 2022.12 - 2023.02
+#        company: We-Ar
+#        details: |
+#          { go, kotlin }
+#          <br>
+#          { nakama, spring boot }
+#          <br>
+#          { jpa, postgresql }
+#          <br>
+#          - nakama 게임서버 프레임워크 커스텀
+#          <br>
+#          - go 기반 실시간 매치 메이킹 서버 개발
+#          <br>
+#          - grpc 를 활용한 kotlin <-> go 서버간 인 게임 데이터 통신 개발
+#        link: ""
+#      - title: 개발 인프라 구축 [데브옵스]
+#        time: 2022.10 - 2022.11
+#        company: We-Ar
+#        details: |
+#          { aws, k8s }
+#          <br>
+#          { github action, argocd }
+#          <br>
+#          - github action, argocd 를 활용한 테스트, 배포 자동화 구축
+#          <br>
+#          - AWS RDS, EKS 관리
+#          <br>
+#          - 웹사이트 썸네일 저장용 AWS S3 구축
+#        link: ""
+#      - title: 위에이알 웹사이트 api 개발 [백엔드]
+#        time: 2022.09 - 2022.11
+#        company: We-Ar
+#        details: |
+#          { kotlin }
+#          <br>
+#          { spring boot, graphql }
+#          <br>
+#          { jpa, postgresql }
+#          <br>
+#          - 서버개발리드 -메소드레벨보안구현
+#          <br>
+#          - 웹사이트 slack 알람 개발
+#          <br>
+#          - 전반적인 웹사이트 api 설계 및 개발
+#          <br>
+#          - flyway DB 마이그레이션 자동화 구축
+#        link: "https://we-ar.kr/"
+#
+#      - title: 언리얼엔진 멀티플레이 게임
+#        link: ""
+#        tagline: "Unreal C++를 사용하여 다중접속이 가능한 멀티플레이 게임을 개발중입니다. Unreal C++ 으로 기본 뼈대를 만들고 blueprint를 활용하여 세부적인 로직을 설계하고 있습니다. 클라이언트 및 서버 개발 외에 게임에 필요한 3D모델들을 Blender를 활용하여 제작 만들고 있습니다."
+#
+#      - title: 해양수산과학기술진흥원 PMS 고도화
+#        link: "https://ofris.kimst.re.kr/pms/pms/main/main.do"
+#        tagline: "해양수산과학기술진흥원 PMS 고도화 프로젝트에서 기존 struts 기반의 웹사이트를 spring 기반으로 변환 및 oracle 12c로 최신화하는 작업을 하였습니다. sparrow를 활용하여 보안취약점 진단 및 조치하였습니다."
+#
+#      - title: AR기술을 이용한 악기 교육 프로그램
+#        link: "https://www.youtube.com/watch?v=atLUa6O9Osw"
+#        tagline: "Unity C#을 사용하여 증강현실 기술을 통해 악기를 연습할 수 있는 프로그램을 개발하였습니다. Unity C# 으로 VR게임 시스템을 만들고 그 위에 vuforia를 활용하여 AR(증강현실)을 구현하였습니다."
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Java
-        level: 50%
+      - name: kotlin - spring boot
+        level: 70%
 
-      - name: Javascript & jQuery
-        level: 30%
-
-      - name: Oracle
+      - name: go lang
         level: 40%
 
+      - name: java - spring boot
+        level: 40%
+
+      - name: kubernetes
+        level: 30%
+
+      - name: aws
+        level: 40%
+
+      - name: github actions
+        level: 40%
+
+      - name: postgresql
+        level: 40%
+
+      - name: Oracle
+        level: 20%
+
       - name: C++
-        level: 15%
+        level: 10%
 
       - name: C#
         level: 10%
